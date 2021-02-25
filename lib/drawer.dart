@@ -14,27 +14,27 @@ class MainDrawer extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              padding: EdgeInsets.all(20),
+              padding: EdgeInsets.all(5),
               color: Theme.of(context).primaryColor,
               child: Center(
                 child: Column(
                   // Give your app logo over here.
                   children: [
                     Container(
-                      width: 100,
-                      height: 100,
+                      width: 140,
+                      height: 140,
                       margin: EdgeInsets.only(
-                        top: 30,
+                        top: 20,
                         // bottom: 10, //Comment this out if want padding between logo and name.
                       ),
                       decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           image: DecorationImage(
-                              image: AssetImage('assets/guy2.png'),
+                              image: AssetImage('assets/logo.png'),
                               fit: BoxFit.fill)),
                     ),
                     Text(
-                      'Bharat Vyapar',
+                      'Bharat Vyapaar',
                       style: TextStyle(
                         fontSize: 22,
                         color: Vx.gray100,
@@ -42,7 +42,7 @@ class MainDrawer extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      'Making Indian Atmanirbhar !!',
+                      'Making India Atmanirbhar !!',
                       style: TextStyle(
                         fontSize: 15,
                         color: Vx.gray100,

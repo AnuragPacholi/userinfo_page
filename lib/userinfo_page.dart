@@ -1,4 +1,3 @@
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:userinfo_page/drawer.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -35,7 +34,7 @@ class _UserinfoPageState extends State<UserinfoPage> {
               VxBox()
                   .size(180, 180)
                   .bgImage(
-                      DecorationImage(image: AssetImage('assets/guy2.png')))
+                      DecorationImage(image: AssetImage('assets/logo.png')))
                   .alignTopCenter
                   .makeCentered(),
             ],
