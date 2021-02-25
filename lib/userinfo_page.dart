@@ -32,7 +32,7 @@ class _UserinfoPageState extends State<UserinfoPage> {
           Row(
             children: [
               VxBox()
-                  .size(180, 180)
+                  .size(200, 200)
                   .bgImage(
                       DecorationImage(image: AssetImage('assets/logo.png')))
                   .alignTopCenter
@@ -49,13 +49,12 @@ class _UserinfoPageState extends State<UserinfoPage> {
               ])
               .white
               .xl3
-              .make()
-              .p0(),
+              .make(),
         ].column())
             .padding(Vx.mV0)
             .alignTopCenter
             .makeCentered()
-            .h(240),
+            .h(250),
         ClipRRect(
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(20), topRight: Radius.circular(20)),

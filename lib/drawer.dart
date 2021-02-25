@@ -1,5 +1,5 @@
 import 'dart:ui';
-
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -20,15 +20,17 @@ class MainDrawer extends StatelessWidget {
                 child: Column(
                   // Give your app logo over here.
                   children: [
+                    HeightBox(12),
                     Container(
-                      width: 140,
-                      height: 140,
+                      width: 180,
+                      height: 120,
                       margin: EdgeInsets.only(
                         top: 20,
-                        // bottom: 10, //Comment this out if want padding between logo and name.
+                        bottom:
+                            8, //Comment this out if want padding between logo and name.
                       ),
                       decoration: BoxDecoration(
-                          shape: BoxShape.circle,
+                          shape: BoxShape.rectangle,
                           image: DecorationImage(
                               image: AssetImage('assets/logo.png'),
                               fit: BoxFit.fill)),
@@ -40,11 +42,12 @@ class MainDrawer extends StatelessWidget {
                         color: Vx.gray100,
                       ),
                     ),
-                    SizedBox(height: 5),
+                    SizedBox(height: 6),
                     Text(
                       'Making India Atmanirbhar !!',
                       style: TextStyle(
-                        fontSize: 15,
+                        fontSize: 13,
+                        fontFamily: GoogleFonts.merienda().fontFamily,
                         color: Vx.gray100,
                       ),
                     )
